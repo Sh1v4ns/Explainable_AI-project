@@ -93,3 +93,6 @@ iii. Additional Metrics
 
 AUC / Performance and similarity to true Shapley values
 
+Cosine Similarity and Spearman Rank for KANSHAP implementation
+
+
