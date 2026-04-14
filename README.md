@@ -1,7 +1,31 @@
 <img width="865" height="627" alt="image" src="https://github.com/user-attachments/assets/d39831ed-f685-4de9-b745-c8db3f6e033c" />This repository hosts the implementation of ViaSHAP, a novel approach that learns a function to compute Shapley values, from which the predictions can be derived directly by summation. We explore two learning approaches based on the universal approximation theorem and the Kolmogorov-Arnold representation theorem. ViaSHAP using Kolmogorov-Arnold Networks performs on par with state-of-the-art algorithms for tabular data. The explanations obtained using ViaSHAP are significantly more accurate than other popular approximators, e.g., FastSHAP on both tabular data and images. All the experiments have been conducted in a Python 3.10 environment.
 
 
-KANSHAP & CHEBKAN XAI Implementation
+# MLP ViaSHAP implementation:
+Usage:
+Clone the Repository: Clone this repository to your local machine using the following command:
+
+git clone https://github.com/Sh1v4ns/XAI_Project.git
+Install Dependencies: Ensure that you have the necessary dependencies installed. You can install them using pip:
+
+pip install -r requirements.txt
+We have used the MLP model for our implementation
+
+The XAI method used is ViaSHAP (mlpshap.py)
+
+Dataset used is Elevators Dataset(tabular regression)
+
+Results reproduced :
+
+Prediction performance : RMSE / Accuracy
+
+SHAP quality metric : Cosine similarity with true Shapley values
+
+Feature importance ranking :Compare important features
+
+Also includes : AUC / performance and similarity to true Shapley values
+
+# KANSHAP & CHEBKAN XAI Implementation
 Usage
 1. Clone the Repository
 
