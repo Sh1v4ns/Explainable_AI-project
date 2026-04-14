@@ -1,0 +1,24 @@
+numpy<2.0.0
+scipy
+pandas
+scikit-learn
+scikit-image
+seaborn
+matplotlib
+
+shap<0.50.0
+xgboost
+tqdm
+openml
+
+# PyTorch (already installed manually)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Optional (only if needed)
+pytorch-tabnet
+
+# GitHub packages
+shapley-regression @ git+https://github.com/iancovert/shapley-regression.git
+fastkan @ git+https://github.com/ZiyaoLi/fast-kan

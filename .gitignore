@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+pip-wheel-metadata/
+htmlcov/
+
+# Data / model artifacts
+*.pt
+*.model
+*.optm
+*.log
+*.csv
+*.npz
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
