@@ -1,5 +1,6 @@
 This repository hosts the implementation of ViaSHAP, a novel approach that learns a function to compute Shapley values, from which the predictions can be derived directly by summation. We explore two learning approaches based on the universal approximation theorem and the Kolmogorov-Arnold representation theorem. ViaSHAP using Kolmogorov-Arnold Networks performs on par with state-of-the-art algorithms for tabular data. The explanations obtained using ViaSHAP are significantly more accurate than other popular approximators, e.g., FastSHAP on both tabular data and images. All the experiments have been conducted in a Python 3.10 environment.
 
+We have implemented 3 different approaches MLP ViaSHAP , KAN ViaSHAp , ChebKAN ViaSHap the implementation details and results are below 
 
 # MLP ViaSHAP implementation:
 Usage:
@@ -82,19 +83,13 @@ Dataset used is Elevators Dataset (tabular regression).
 
 10. Results Reproduced
 
-i. Prediction Performance
+i Time comparison of ChebKAN with ViaShap
 
-RMSE / Accuracy
-
-ii. SHAP Quality Metric
-
-Cosine similarity with true Shapley values
-
-iii. Feature Importance Ranking
+ii. Feature Importance Ranking
 
 Compare important features across methods
 
-iv. Additional Metrics
+iii. Additional Metrics
 
 AUC / Performance and similarity to true Shapley values
 
